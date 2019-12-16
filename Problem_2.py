@@ -19,7 +19,7 @@ j = 2
 flag = True
 sum = 2
 max_num = 4000000
-# max_num = 100
+
 while flag:
     temp = next_fib(i, j)
     i = j
@@ -29,7 +29,6 @@ while flag:
         flag = False
     elif j % 2 == 0:
         sum += j
-    # print(j)
 
 print("Result: ")
 print(sum)
