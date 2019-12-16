@@ -1,4 +1,4 @@
-""" Problem 1: Multiples of 3 and 5 
+""" Problem 1: Multiples of 3 and 5
 
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5,
@@ -6,3 +6,15 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5,
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 """
+sum = 0
+max_range = 1000
+
+for number in range(1, max_range, 1):
+    if number % 3 == 0:
+        # print(number)
+        sum += number
+    elif number % 5 == 0:
+        # print(number)
+        sum += number
+
+print(sum)
